@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class Entorno {
   titulo = 'Práctica 2';
   bienvenida = 'Bienvenido a la aplicación de gestión de entornos.';
-  entorno = 'PROD';
-  mensaje = 'Entorno de producción';
-  clase = 'prod';
+  entorno = 'UAT';
+  mensaje = 'Entorno de aceptación UAT';
+  clase = 'uat';
 }
