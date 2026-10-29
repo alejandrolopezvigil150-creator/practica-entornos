@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class Entorno {
   titulo = 'Práctica de despliegues';
   bienvenida = 'Bienvenido a la aplicación de gestión de entornos.';
-  entorno = 'PROD';
-  mensaje = 'Entorno de producción';
-  clase = 'prod';
+  entorno = 'QA';
+  mensaje = 'Entorno de pruebas QA';
+  clase = 'qa';
 }
