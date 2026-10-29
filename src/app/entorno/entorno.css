@@ -1,0 +1,37 @@
+:host {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tarjeta {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 32px;
+  text-align: center;
+  border-radius: 12px;
+  border-top: 10px solid var(--color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.bienvenida {
+  color: #444;
+}
+
+.etiqueta {
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--color);
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.sigla {
+  display: block;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.prod { --color: #2e7d32; }
+.qa   { --color: #ef6c00; }
+.uat  { --color: #1565c0; }
