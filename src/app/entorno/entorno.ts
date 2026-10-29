@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './entorno.css'
 })
 export class Entorno {
-  titulo = 'Práctica de despliegues';
+  titulo = 'Práctica 2';
   bienvenida = 'Bienvenido a la aplicación de gestión de entornos.';
   entorno = 'QA';
   mensaje = 'Entorno de pruebas QA';
-  clase = 'qa';
+  clase = 'qa'; 
 }
